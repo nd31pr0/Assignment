@@ -85,12 +85,12 @@ const Header = () => {
                 </Box>
                 <Box direction="row" spacing={2}>
                     <Button sx={{backgroundColor:"white", color:"black"}}>Login</Button>
-                    <Button sx={{backgroundColor:"orange", color:"yellow"}}>Free Signup</Button>
+                    <Button sx={{backgroundColor:"#FB8C0A", color:"white"}}>Free Signup</Button>
                 </Box>
             </Toolbar>
         </AppBar>
         <Container sx={{marginTop:2}}>
-                <img src={bg} alt="content background" sx={{paddingTop:"50", maxWidth: "100%"}}/>
+                <img src={bg} alt="content background" sx={{paddingTop:50, maxWidth: "100%"}}/>
         </Container>
 
     </>

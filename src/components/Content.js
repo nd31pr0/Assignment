@@ -24,10 +24,16 @@ const style = {
 const Content = () => {
   return (
     <>
-        <Typography style={{ fontWeight: 'bold' }}>Skilled.Relevant.<span style={{color: '#FB8C0A'}}>Trained</span>
+        <Typography style={{ fontWeight: 'bold', fontSize:20, paddingTop:20 }}>Skilled.Relevant.
+            <span 
+            style={{color:
+                 '#FB8C0A'}}
+        >
+            Trained
+            </span>
         </Typography>
         <Box display="flex" 
-            margin="0 auto"
+            margin="2 auto"
             justifyContent="center"
             align="center"
             paddingTop={5}
@@ -97,10 +103,10 @@ const Content = () => {
                 </Card>
             </Box>
         </Box>
-        <Typography sx={{fontWeight:"bold"}}>
+        <Typography sx={{fontSize:20,fontWeight:"bold", paddingBottom:2}}>
                     <p>Our Hiring Partners</p>
         </Typography>
-        <box display="flex" paddinBottom= {5} sx={{display:"flex", marginBottom:3, alignItems:"center"}}>
+        <box sx={{display:"flex", paddingBottom:12, alignItems:"center"}}>
             <img src={tos_img} alt="img" />{' '}
             <img src={google} alt="img" /> {' '}
             <img paddingLeft={3} src={facebook_img} alt="img" />{' '}
@@ -108,7 +114,7 @@ const Content = () => {
             <img paddingLeft={3} src={youtube_img} alt="img" />{' '}
             <img paddingLeft={3} src={Capgemini_img} alt="img" />{' '}
             <img paddingLeft={3} src={cognizant_img} alt="img" />{' '}
-            <img paddingLeft={3} src={accenture_img} alt="img" />{' '}
+            <img paddingLeft={3} src={accenture_img} alt="img" />
         </box>
     </>
   )
