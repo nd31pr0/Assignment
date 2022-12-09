@@ -5,7 +5,7 @@ import footer from "../images/footer_img.png"
 const Footer = () => {
   return (
     <>
-        <Box sx={{
+        <Box style={{
             position: 'absolute',
             bottom: 0,
             width: '100%',

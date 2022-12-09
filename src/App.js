@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Content from './components/Content';
 import Prefooter from './components/Prefooter';
 import Footer from './components/Footer';
+import FormSteps from './components/Steps/FormSteps';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Content />
       <Prefooter />
+      <FormSteps />
       <Footer />
     </div>
   );
